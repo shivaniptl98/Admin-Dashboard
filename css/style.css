@@ -91,3 +91,66 @@ section#main-content {
     float: left;
     padding-right: 20px;
 }
+.header-left p{
+    color: #bbb;
+}
+input.search-bar{
+    width: 50%;
+    border-radius: 20px;
+    padding: 8px 13px;
+    border: 2px solid #bbb;
+    transition: width 1s ease;
+}
+input.search-bar:focus{
+    outline: none;
+    border: 2px solid #fd5a5e;
+    width: 95%;
+}
+i.fa-solid.fa-magnifying-glass{
+    background-color: #fd5a5e;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-top-right-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    margin-left: -35px;
+}
+.card-box{
+  float: left;
+  width: 21%;
+  margin-top: 120px;
+  background: linear-gradient(45deg,#FF5252 0%,#f48fb1 100%); 
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 25px;
+  color: #fff;
+}
+.cus-num{
+    position: relative;
+}
+.cus-h::after{
+    content: "\f007";
+    font-family: FONTAWESOME;
+    position: absolute;
+    right: 0;
+}
+.cus-pro::after{
+    content: "\f15b";
+    font-family: FONTAWESOME;
+    position: absolute;
+    right: 0;
+}
+.cus-ord::after{
+    content: "\f1c1";
+    font-family: FONTAWESOME;
+    position: absolute;
+    right: 0;
+}
+.cus-inc::after{
+    content:"\f0d6";
+    font-family: FONTAWESOME;
+    position: absolute;
+    right: 0;
+}
