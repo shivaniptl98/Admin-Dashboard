@@ -81,32 +81,38 @@ section#main-content {
     box-shadow: 10px 10px 20px #bbb;
     width: 100%;
 }
-.header-left{
+
+.header-left {
     float: left;
     width: 33%;
     padding: 20px;
 }
-.header-left img{
+
+.header-left img {
     width: 13%;
     float: left;
     padding-right: 20px;
 }
-.header-left p{
+
+.header-left p {
     color: #bbb;
 }
-input.search-bar{
+
+input.search-bar {
     width: 50%;
     border-radius: 20px;
     padding: 8px 13px;
     border: 2px solid #bbb;
     transition: width 1s ease;
 }
-input.search-bar:focus{
+
+input.search-bar:focus {
     outline: none;
     border: 2px solid #fd5a5e;
     width: 95%;
 }
-i.fa-solid.fa-magnifying-glass{
+
+i.fa-solid.fa-magnifying-glass {
     background-color: #fd5a5e;
     color: #fff;
     width: 35px;
@@ -117,64 +123,79 @@ i.fa-solid.fa-magnifying-glass{
     border-bottom-right-radius: 50px 50px;
     margin-left: -35px;
 }
-.card-box{
-  float: left;
-  width: 21%;
-  margin-top: 120px;
-  background: linear-gradient(45deg,#FF5252 0%,#f48fb1 100%); 
-  margin-left: 2%;
-  margin-right: 2%;
-  padding: 25px;
-  color: #fff;
+
+.card-box {
+    float: left;
+    width: 21%;
+    margin-top: 120px;
+    background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 25px;
+    color: #fff;
 }
-.cus-num{
+
+.cus-num {
     position: relative;
 }
-.cus-h::after{
+
+.cus-h::after {
     content: "\f007";
     font-family: FONTAWESOME;
     position: absolute;
     right: 0;
 }
-.cus-pro::after{
+
+.cus-pro::after {
     content: "\f15b";
     font-family: FONTAWESOME;
     position: absolute;
     right: 0;
 }
-.cus-ord::after{
+
+.cus-ord::after {
     content: "\f1c1";
     font-family: FONTAWESOME;
     position: absolute;
     right: 0;
 }
-.cus-inc::after{
-    content:"\f0d6";
+
+.cus-inc::after {
+    content: "\f0d6";
     font-family: FONTAWESOME;
     position: absolute;
     right: 0;
 }
-.pro-table{
-    width: 65%;
+
+.pro-table {
+    width: 68%;
     float: left;
     background-color: #fff;
     box-shadow: 10px 10px 20px #bbb;
     padding: 15px;
 }
-table td{
+
+table td {
     padding: 20px 0px 0px 0px;
 }
-table th{
+
+table th {
     text-align: left;
 }
-.cus-table{
+
+.cus-table {
     float: right;
     width: 30%;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #bbb;
+    padding: 15px;
 }
-.content-pro-par{
+
+.content-pro-par {
     margin: 6% 2% 0% 2%;
 }
-span.rev-span{
+
+span.rev-span {
     width: 10px;
     height: 10px;
     background-color: #FF5252;
@@ -182,7 +203,8 @@ span.rev-span{
     border-radius: 10px;
     margin-right: 8px;
 }
-span.progress-span{
+
+span.progress-span {
     width: 10px;
     height: 10px;
     background-color: blue;
@@ -190,7 +212,8 @@ span.progress-span{
     border-radius: 10px;
     margin-right: 8px;
 }
-span.Pending-span{
+
+span.Pending-span {
     width: 10px;
     height: 10px;
     background-color: rgba(102, 0, 255, 0.714);
@@ -198,16 +221,20 @@ span.Pending-span{
     border-radius: 10px;
     margin-right: 8px;
 }
-.rec-h{
+
+.rec-h {
     float: left;
 }
-.rec-but{
+
+.rec-but {
     float: right;
 }
-.recent-pro{
+
+.recent-pro {
     margin-bottom: 25px;
 }
-.rec-but button{
+
+.rec-but button {
     background-color: #fd5a5e;
     color: #fff;
     border: none;
@@ -218,10 +245,91 @@ span.Pending-span{
     cursor: pointer;
 
 }
-td.td-img img{
+
+td.td-img img {
     width: 35px;
 }
-td.td-cnt-i i{
+
+td.td-cnt-i i {
     color: #fd5a5e;
     padding-right: 8px;
+}
+
+@media screen and (max-width:768px) {
+    .card-box {
+        float: none;
+        width: 100%;
+        margin: 0 auto 20px auto;
+        padding: 10px 20px;
+    }
+
+    .main-content-info {
+        margin-top: 130px;
+    }
+
+    .cus-num::after {
+        top: 10px;
+    }
+
+    .pro-table {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .cus-table {
+        float: none;
+        width: 100px;
+        margin: 20px auto;
+    }
+
+    table td {
+        font-size: 14px;
+    }
+
+    .rec-h h2 {
+        font-size: 18px;
+    }
+
+    .rec-but button {
+        font-size: 11px;
+        width: 50px;
+        height: 40px;
+        line-height: 40px;
+
+    }
+
+    .search-div {
+        display: none;
+    }
+
+    .header-left {
+        float: left;
+        width: 50%;
+    }
+
+    .header-left h2 {
+        font-size: 18px;
+    }
+
+    section#sidebar {
+        width: 16%;
+    }
+
+    section#main-content {
+        width: 84%;
+    }
+    .sidebar-menu ul li a{
+        padding: 10px 22px;
+    }
+    .sidebar-menu ul li span{
+        display: none;
+    }
+    .sidebar-brand span{
+        display: none;
+    }
+    .sidebar-brand{
+        padding: 20px 0 20px 20px;
+    }
+
 }
