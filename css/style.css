@@ -154,3 +154,74 @@ i.fa-solid.fa-magnifying-glass{
     position: absolute;
     right: 0;
 }
+.pro-table{
+    width: 65%;
+    float: left;
+    background-color: #fff;
+    box-shadow: 10px 10px 20px #bbb;
+    padding: 15px;
+}
+table td{
+    padding: 20px 0px 0px 0px;
+}
+table th{
+    text-align: left;
+}
+.cus-table{
+    float: right;
+    width: 30%;
+}
+.content-pro-par{
+    margin: 6% 2% 0% 2%;
+}
+span.rev-span{
+    width: 10px;
+    height: 10px;
+    background-color: #FF5252;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+span.progress-span{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+span.Pending-span{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(102, 0, 255, 0.714);
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+.rec-h{
+    float: left;
+}
+.rec-but{
+    float: right;
+}
+.recent-pro{
+    margin-bottom: 25px;
+}
+.rec-but button{
+    background-color: #fd5a5e;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+
+}
+td.td-img img{
+    width: 35px;
+}
+td.td-cnt-i i{
+    color: #fd5a5e;
+    padding-right: 8px;
+}
